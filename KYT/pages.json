@@ -1,0 +1,117 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "初始页面",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/identity/index",
+			"style": {
+				"navigationBarTitleText": "创建身份",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/backup/index",
+			"style": {
+				"navigationBarTitleText": "创建备份",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/backup_words/index",
+			"style": {
+				"navigationBarTitleText": "备份助记词",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/confirm_words/index",
+			"style": {
+				"navigationBarTitleText": "确认助记词",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/compute/index",
+			"style": {
+				"navigationBarTitleText": "算力",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/wallet/index",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/ecology/index",
+			"style": {
+				"navigationBarTitleText": "生态",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/person/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"		
+	},
+	"tabBar": {
+		"color": "#807E73",
+		"selectedColor": "#ECC53D",
+		"borderStyle": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"height": "110upx",
+		"list": [{
+				"pagePath": "components/home/index",
+				"iconPath": "static/img/home@2x.png",
+				"selectedIconPath": "static/img/home_show@2x.png",
+				"text": "首页"
+			}, {
+				"pagePath": "components/compute/index",
+				"iconPath": "static/img/compute@2x.png",
+				"selectedIconPath": "static/img/compute_show@2x.png",
+				"text": "算力"
+			},
+			{
+				"pagePath": "components/wallet/index",
+				"iconPath": "static/img/wallet@2x%20.png",
+				"selectedIconPath": "static/img/wallet_show@2x%20.png",
+				"text": "钱包"
+			},
+			{
+				"pagePath": "components/ecology/index",
+				"iconPath": "static/img/ecology@2x.png",
+				"selectedIconPath": "static/img/ecology_show@2x.png",
+				"text": "生态"
+			},
+			{
+				"pagePath": "components/person/index",
+				"iconPath": "static/img/person@2x.png",
+				"selectedIconPath": "static/img/person_show@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
