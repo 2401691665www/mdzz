@@ -1,0 +1,60 @@
+module.exports = {
+    message: {
+        blockID: 'BLOCK HEIGHT',
+        blockTime: 'BLOCK TIME',
+        block: 'BlOCKS',
+        search: "Search",
+        blocks: {
+            generated: 'Time Generated',
+            blockhash: 'Block Hash',
+            transaction: 'Transaction',
+            takeTime: 'Take Time(s)',
+            transactionFee: 'Transaction Fee',
+            beforeTheTime: 'Before the Time',
+            prev: 'Prev',
+            next: 'Next',
+            information: 'Block Information',
+            by: "By",
+            txns: "Txns"
+        },
+        transac: {
+            generated: "Time Generated",
+            status: "Status",
+            success: "Success",
+            block: "Block",
+            to: "To",
+            from: "From",
+            token: "Token",
+            amount: "Amount",
+            transactionFee: "Transaction Fee",
+            confirmNumber: "Confirm Number",
+            beforeTheTime: "Before the Time",
+            information: 'Trading Information'
+        },
+        overview: {
+            overview: "Overview",
+            balance: "APCT Balance",
+            total: "Total",
+            transactions: "Transactions",
+            parentHash: "Parent Hash",
+            block: "Block",
+            to: "To",
+            from: "From",
+            APCT: "APCT",
+            ago: "Ago",
+        },
+        token: {
+            information: 'Token Information',
+            issue: 'Issue Volume',
+            circulation: 'Circulation',
+            holder: 'Holder',
+            price: 'Number /Price',
+            market: 'Market Value',
+            trans: 'Total Value',
+            TX: 'TX',
+            From: 'From',
+            To: 'To',
+        }
+    },
+
+}
